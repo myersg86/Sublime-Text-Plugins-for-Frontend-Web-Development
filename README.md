@@ -38,17 +38,9 @@ This list was shared by (among others):
 These plugins are kind of 'meta' because they are not concerned with writing code.
 
 * [Package Control](https://packagecontrol.io/packages/Package%20Control): This package enables you to install other packages. Since build 3124, you can install it within Sublime via <em>Tools</em> ➡ <em>Install Package Control</em>.
-* [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile): A better way to create new files. For instance, it automatically creates a folder when needed.
 * [SideBarEnhacements](https://packagecontrol.io/packages/SideBarEnhancements): Adds features such as renaming to the sidebar.
-* [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon): Add icons to the files in the sidebar.
-* [ProjectManager](https://packagecontrol.io/packages/ProjectManager): Organizing project files by putting them in a central location.
-* [TodoReview](https://packagecontrol.io/packages/TodoReview): Scans files for `TODO`s and more.
-* [FindKeyConflicts](https://packagecontrol.io/packages/FindKeyConflicts): Key conflicts are inevitable when you use a lot of plugins.
-* [Editor Config](https://packagecontrol.io/packages/EditorConfig): Maintain consistent coding styles between different editors.
 * [Sync Settings](https://packagecontrol.io/packages/Sync%20Settings): Keep Sublime settings in sync via Github-Gist.
 * [Package Syncing](https://packagecontrol.io/packages/Package%20Syncing): Keep all you settings, packages etc in sync via Dropbox and co
-* [SFTP](https://packagecontrol.io/packages/SFTP): Transfer files to a server via FTPS and SFTP. The plugin is like Sublime [Nagware](https://en.wikipedia.org/wiki/Shareware#Nagware). You can use it for free but get a reminder to buy a licence.
-
 
 <a name="general"/>
 
@@ -64,7 +56,6 @@ Useful for all languages.
 * [GitSavvy](https://packagecontrol.io/packages/GitSavvy): Full git and GitHub integration.
 * [Gitignore](https://packagecontrol.io/packages/Gitignore): Fetches templates for the .gitignore provided by [Github](https://github.com/github/gitignore).
 * [Local History](https://packagecontrol.io/packages/Local%20History): Keep a local history of your files.
-* [DashDoc](https://packagecontrol.io/packages/DashDoc): Open current selection in [Dash](https://kapeli.com/dash) on a hot key.
 * [Text Pastry](https://packagecontrol.io/packages/Text%20Pastry): Extend the power of multiple selections with features such as incremental numbers and date ranges.
 
 
@@ -88,24 +79,9 @@ Useful for all languages.
 * [Emmet](https://packagecontrol.io/packages/Emmet): Allows you to write HTML very fast. You have to learn their way though.
 * [Color Highlighter](https://packagecontrol.io/packages/Color%20Highlighter)
 
-<a name="linter"/>
-
-### 🔥 v. Linter 
-Linters help you to spot mistakes in your code early on. In order to make them work properly, check the instructions in the packages. For some, you have to install additional tools.
-
-* [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
-* [SublimeLinter-HTML-tidy](https://packagecontrol.io/packages/SublimeLinter-html-tidy)
-* [SublimeLinter-contrib-stylelint](https://packagecontrol.io/packages/SublimeLinter-contrib-stylelint): For CSS. Choose stylelint over [SublimeLinter-CSSlint](https://packagecontrol.io/packages/SublimeLinter-csslint).
-* [SublimeLinter-contrib-SCSS-lint](https://packagecontrol.io/packages/SublimeLinter-contrib-scss-lint)
-* [SublimeLinter-contrib-ESLint](https://packagecontrol.io/packages/SublimeLinter-contrib-eslint)
-* [SublimeLinter-flow](https://packagecontrol.io/packages/SublimeLinter-flow)
-* [SublimeLinter-contrib-elm-make](https://packagecontrol.io/packages/SublimeLinter-contrib-elm-make)
-* [SublimeLinter-JSON](https://packagecontrol.io/packages/SublimeLinter-json)
-
 <a name="other"/>
 
 ### 👥 vi. Other
-* [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview)
 * [Advanced CSV](https://packagecontrol.io/packages/Advanced%20CSV)
 
 <a name="themes"/>
@@ -114,53 +90,84 @@ Linters help you to spot mistakes in your code early on. In order to make them w
 
 The built-in themes do not support recent syntax such as ES2015. In the following, I list some I have test and do it.
 
-* [Solarized Color Scheme](https://packagecontrol.io/packages/Solarized%20Color%20Scheme): Replaced the outdated built-in one
-* The two theme installed by [Babel](https://packagecontrol.io/packages/Babel): Monokai Phoenix and Next 
-* [Oceanic Next Color Scheme](https://packagecontrol.io/packages/Oceanic%20Next%20Color%20Scheme)
 * [ayu](https://packagecontrol.io/packages/ayu)
-* [LightScript](https://packagecontrol.io/packages/LightScript)
 * [Marterial Theme](https://packagecontrol.io/packages/Material%20Theme)
-* [Boxy Theme](https://packagecontrol.io/packages/Boxy%20Theme)
 
 <a name="settings"/>
 
 ## 3. Settings
 ```
 {
-    // Disallows approving auto-complete suggestions with 'enter' to prevent ambiguous situations.
-    // You have to get used to it but also Sublime strongly recommends it.
-    "auto_complete_commit_on_tab": true,
-    "auto_complete_delay": 0,
-    // Allow auto-complete suggestion within snippets.
-    "auto_complete_with_fields": true,
-    "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
-    "create_window_at_startup": false,
-    "draw_white_space": "all",
-    "ensure_newline_at_eof_on_save": true,
-    "font_face": "Input Sans Narrow",
-    "font_size": 15,
-    "highlight_line": true,
-    "ignored_packages":
-    [
-        "CSS",
-        "Vintage"
-    ],
-    // Highlights the indentation of the current scope.
-    "indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ],
-    "indent_to_bracket": true,
-    "rulers":
-    [
-        80
-    ],
-    "tab_size": 2,
-    "translate_tabs_to_spaces": true,
-    // NB: the following could lead to a lot of (unnecessary) changes in other's peoples files
-    "trim_trailing_white_space_on_save": true,
-    "word_wrap": true
+	"always_show_minimap_viewport": true,
+	"animation_enabled": true,
+	"auto_close_tags": true,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 0,
+	"auto_complete_with_fields": true,
+	"auto_indent": true,
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+	"default_line_ending": "unix",
+	"detect_indentation": true,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"font_face": "Droid Sans Mono",
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"indent_subsequent_lines": true,
+	"index_files": true,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_selection": true,
+	"match_tags": true,
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"material_theme_accent_acid-lime": true,
+	"material_theme_accent_scrollbars": true,
+	"material_theme_bold_tab": true,
+	"material_theme_bright_scrollbars": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_disable_fileicons": true,
+	"material_theme_disable_folder_animation": true,
+	"material_theme_disable_tree_indicator": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tabs_separator": true,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": true,
+	"show_definitions": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"smart_indent": true,
+	"tab_completion": true,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "auto"
 }
 
 ```
