@@ -39,8 +39,6 @@ These plugins are kind of 'meta' because they are not concerned with writing cod
 
 * [Package Control](https://packagecontrol.io/packages/Package%20Control): This package enables you to install other packages. Since build 3124, you can install it within Sublime via <em>Tools</em> ➡ <em>Install Package Control</em>.
 * [SideBarEnhacements](https://packagecontrol.io/packages/SideBarEnhancements): Adds features such as renaming to the sidebar.
-* [Sync Settings](https://packagecontrol.io/packages/Sync%20Settings): Keep Sublime settings in sync via Github-Gist.
-* [Package Syncing](https://packagecontrol.io/packages/Package%20Syncing): Keep all you settings, packages etc in sync via Dropbox and co
 
 <a name="general"/>
 
@@ -50,11 +48,8 @@ Useful for all languages.
 * [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete): Indexes all open files for auto-completion.
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter): Improves the already built-in highlighting.
 * [Terminal](https://packagecontrol.io/packages/Terminal): Open Terminal with current working directory set to the directory of the open file on a hot key.
-* [AlignTab](https://packagecontrol.io/packages/AlignTab): Align your code by `:`, `=`, `=>`, `%`, ` `, `|` or your own RegEx.
 * [GitGutter](https://packagecontrol.io/packages/GitGutter): Displays modified lines in the gutter (left to the line numbers).
 * [Git](https://packagecontrol.io/packages/Git): Includes some git commands.
-* [GitSavvy](https://packagecontrol.io/packages/GitSavvy): Full git and GitHub integration.
-* [Gitignore](https://packagecontrol.io/packages/Gitignore): Fetches templates for the .gitignore provided by [Github](https://github.com/github/gitignore).
 * [Local History](https://packagecontrol.io/packages/Local%20History): Keep a local history of your files.
 * [Text Pastry](https://packagecontrol.io/packages/Text%20Pastry): Extend the power of multiple selections with features such as incremental numbers and date ranges.
 
@@ -91,7 +86,7 @@ Useful for all languages.
 The built-in themes do not support recent syntax such as ES2015. In the following, I list some I have test and do it.
 
 * [ayu](https://packagecontrol.io/packages/ayu)
-* [Marterial Theme](https://packagecontrol.io/packages/Material%20Theme)
+* [Material Theme](https://packagecontrol.io/packages/Material%20Theme)
 
 <a name="settings"/>
 
@@ -108,27 +103,17 @@ The built-in themes do not support recent syntax such as ES2015. In the followin
 	"auto_indent": true,
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
+	"drag_text": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"find_selected_text": true,
 	"font_face": "Droid Sans Mono",
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"indent_subsequent_lines": true,
-	"index_files": true,
-	"match_brackets": true,
-	"match_brackets_angle": true,
-	"match_brackets_braces": true,
-	"match_brackets_content": true,
-	"match_brackets_square": true,
-	"match_selection": true,
-	"match_tags": true,
 	"font_options":
 	[
-		"gray_antialias",
 		"subpixel_antialias"
 	],
 	"font_size": 10,
@@ -143,7 +128,16 @@ The built-in themes do not support recent syntax such as ES2015. In the followin
 		"draw_normal",
 		"draw_active"
 	],
-	"material_theme_accent_acid-lime": true,
+	"indent_subsequent_lines": true,
+	"index_files": true,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_selection": true,
+	"match_tags": true,
+	"material_theme_accent_bright-teal": true,
 	"material_theme_accent_scrollbars": true,
 	"material_theme_bold_tab": true,
 	"material_theme_bright_scrollbars": true,
