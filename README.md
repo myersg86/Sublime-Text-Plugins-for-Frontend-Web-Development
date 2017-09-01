@@ -84,13 +84,15 @@ Useful for all languages.
 ## 2. Themes
 
 The built-in themes do not support recent syntax such as ES2015. In the following, I list some I have test and do it.
-
+* [spacegray](https://github.com/kkga/spacegray)
 * [ayu](https://packagecontrol.io/packages/ayu)
 * [Material Theme](https://packagecontrol.io/packages/Material%20Theme)
 
 <a name="settings"/>
 
 ## 3. Settings
+
+Material Theme
 ```
 {
 	"always_show_minimap_viewport": true,
@@ -166,5 +168,70 @@ The built-in themes do not support recent syntax such as ES2015. In the followin
 
 ```
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+SpaceGray
+```
+{
+	"always_show_minimap_viewport": true,
+	"animation_enabled": true,
+	"auto_close_tags": true,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 0,
+	"auto_complete_with_fields": true,
+	"auto_indent": true,
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"default_line_ending": "unix",
+	"detect_indentation": true,
+	"drag_text": false,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	"font_face": "Droid Sans Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"indent_subsequent_lines": true,
+	"index_files": true,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_selection": true,
+	"match_tags": true,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": true,
+	"show_definitions": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"smart_indent": true,
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_small": true,
+	"spacegray_sidebar_tree_xsmall": true,
+	"spacegray_tabs_auto_width": true,
+	"spacegray_tabs_font_small": true,
+	"spacegray_tabs_small": true,
+	"tab_completion": true,
+	"theme": "Default.sublime-theme",
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "auto"
+}
 
+```
