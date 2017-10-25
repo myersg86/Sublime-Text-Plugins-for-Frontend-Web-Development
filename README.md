@@ -171,20 +171,9 @@ Material Theme
 SpaceGray
 ```
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
-	"theme": "Spacegray Eighties.sublime-theme",
-	"default_line_ending": "unix",
-	"draw_white_space": "all",
-	"font_face": "Source Code Pro"/*"Roboto Mono"*//*"Droid Sans Mono"*//*"Ubuntu Mono"*/,
-	"overlay_scroll_bars": "enabled",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
 	"always_show_minimap_viewport": true,
 	"animation_enabled": true,
 	"auto_close_tags": true,
-	"word_wrap": "auto",
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 0,
@@ -192,14 +181,22 @@ SpaceGray
 	"auto_indent": true,
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
-	"font_size": 9,
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"drag_text": false,
+	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 11,
 	"highlight_line": true,
-	"highlight_modified_tabs": false,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -218,6 +215,7 @@ SpaceGray
 	"match_brackets_square": true,
 	"match_selection": true,
 	"match_tags": true,
+	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
 	"show_definitions": true,
 	"show_encoding": true,
@@ -230,8 +228,11 @@ SpaceGray
 	"spacegray_tabs_font_normal": true,
 	"spacegray_tabs_normal": true,
 	"tab_completion": true,
+	"theme": "Spacegray Eighties.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
 }
+
 
 ```
