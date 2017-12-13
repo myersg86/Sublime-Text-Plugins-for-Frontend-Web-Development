@@ -106,7 +106,7 @@ SpaceGray
 	"auto_indent": true,
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"drag_text": false,
