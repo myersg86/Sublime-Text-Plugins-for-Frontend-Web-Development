@@ -7,9 +7,7 @@ If you know plugins that should be on this list, just open an issue. 😉
 ### Table of Contents
 
 1. [Plugins](#plugins)
-
 2. [Themes](#themes)
-
 3. [Settings](#settings)
 
 <a name="plugins"/>
