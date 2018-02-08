@@ -80,70 +80,102 @@ The built-in themes do not support recent syntax such as ES2015. In the followin
 ## 3. Settings
 
 SpaceGray
+
 ```
 {
-	"always_show_minimap_viewport": true,
-	"animation_enabled": true,
-	"auto_close_tags": true,
-	"auto_complete": true,
-	"auto_complete_commit_on_tab": true,
-	"auto_complete_delay": 0,
-	"auto_complete_with_fields": true,
-	"auto_indent": true,
-	"auto_match_enabled": true,
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
-	"default_line_ending": "unix",
-	"detect_indentation": true,
-	"drag_text": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
-	"find_selected_text": true,
-	"font_face": "Source Code Pro",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"font_size": 9,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"indent_subsequent_lines": true,
-	"index_files": true,
-	"match_brackets": true,
-	"match_brackets_angle": true,
-	"match_brackets_braces": true,
-	"match_brackets_content": true,
-	"match_brackets_square": true,
-	"match_selection": true,
-	"match_tags": true,
-	"overlay_scroll_bars": "enabled",
-	"scroll_past_end": true,
-	"show_definitions": true,
-	"show_encoding": true,
-	"show_line_endings": true,
-	"smart_indent": true,
-	"spacegray_fileicons": true,
-	"spacegray_sidebar_font_normal": true,
-	"spacegray_sidebar_tree_normal": true,
-	"spacegray_tabs_auto_width": true,
-	"spacegray_tabs_font_normal": true,
-	"spacegray_tabs_normal": true,
-	"spacegray_fileicons": true,
-	"tab_completion": true,
-	"theme": "Spacegray Eighties.sublime-theme",
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+    "always_show_minimap_viewport": true,
+    "animation_enabled": true,
+    "auto_close_tags": true,
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_delay": 0,
+    "auto_complete_with_fields": true,
+    "auto_indent": true,
+    "auto_match_enabled": true,
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+    "default_line_ending": "unix",
+    "detect_indentation": true,
+    "detect_slow_plugins": true,
+    "drag_text": false,
+    "draw_white_space": "all",
+    "ensure_newline_at_eof_on_save": true,
+    "fade_fold_buttons": false,
+    "find_selected_text": true,
+    "font_face": "Source Code Pro",
+    "font_options":
+    [
+    "subpixel_antialias"
+    ],
+    "font_size": 9,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+    "Vintage"
+    ],
+    "file_exclude_patterns":
+    [
+    "*.DS_store",
+    "*.cur",
+    "*.eot",
+    "*.gem",
+    "*.gz",
+    "*.jar",
+    "*.pdf",
+    "*.psb",
+    "*.psd",
+    "*.sassc",
+    "*.scssc",
+    "*.ttf",
+    "*.woff",
+    "*.zip",
+    "BrowserStackLocal"
+    ],
+    "folder_exclude_patterns":
+    [
+    ".cache",
+    ".git",
+    ".sass-cache",
+    "bower_components",
+    "design_assets",
+    "node_modules"
+    ],
+    "indent_guide_options":
+    [
+    "draw_normal",
+    "draw_active"
+    ],
+    "indent_subsequent_lines": true,
+    "index_files": true,
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "match_brackets": true,
+    "match_brackets_angle": true,
+    "match_brackets_braces": true,
+    "match_brackets_content": true,
+    "match_brackets_square": true,
+    "match_selection": true,
+    "match_tags": true,
+    "overlay_scroll_bars": "enabled",
+    "scroll_past_end": true,
+    "show_definitions": true,
+    "show_encoding": true,
+    "show_line_endings": true,
+    "smart_indent": true,
+    "spacegray_fileicons": true,
+    "spacegray_sidebar_font_normal": true,
+    "spacegray_sidebar_tree_normal": true,
+    "spacegray_tabs_auto_width": true,
+    "spacegray_tabs_font_normal": true,
+    "spacegray_tabs_normal": true,
+    "spacegray_fileicons": true,
+    "tab_completion": true,
+    "theme": "Spacegray Eighties.sublime-theme",
+    "trim_automatic_white_space": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+    "word_wrap": "true"
 }
 
 ```
@@ -151,69 +183,69 @@ SpaceGray
 #### windows settings
 ```
 {
-	"always_show_minimap_viewport": true,
-	"animation_enabled": true,
-	"auto_close_tags": true,
-	"auto_complete": true,
-	"auto_complete_commit_on_tab": true,
-	"auto_complete_delay": 0,
-	"auto_complete_selector": "source, text",
-	"auto_complete_with_fields": true,
-	"auto_indent": true,
-	"auto_match_enabled": true,
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/ayu/ayu-dark.tmTheme",
-	"default_line_ending": "unix",
-	"detect_indentation": true,
-	"drag_text": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
-	"find_selected_text": true,
-	"font_face": "Source Code Pro",
-	"font_options":
-	[
-		"subpixel_antialias"
-	],
-	"font_size": 9,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"CSS",
-		"PHP",
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"indent_subsequent_lines": true,
-	"index_files": true,
-	"match_brackets": false,
-	"match_brackets_angle": false,
-	"match_brackets_braces": false,
-	"match_brackets_content": false,
-	"match_brackets_square": false,
-	"match_selection": true,
-	"match_tags": false,
-	"overlay_scroll_bars": "enabled",
-	"scroll_past_end": true,
-	"show_definitions": true,
-	"show_encoding": true,
-	"show_line_endings": true,
-	"smart_indent": true,
-	"spacegray_fileicons": true,
-	"spacegray_sidebar_font_normal": true,
-	"spacegray_sidebar_tree_normal": true,
-	"spacegray_tabs_auto_width": true,
-	"spacegray_tabs_font_normal": true,
-	"spacegray_tabs_normal": true,
-	"tab_completion": true,
-	"theme": "Default.sublime-theme",
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+    "always_show_minimap_viewport": true,
+    "animation_enabled": true,
+    "auto_close_tags": true,
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_delay": 0,
+    "auto_complete_selector": "source, text",
+    "auto_complete_with_fields": true,
+    "auto_indent": true,
+    "auto_match_enabled": true,
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+    "default_line_ending": "unix",
+    "detect_indentation": true,
+    "drag_text": false,
+    "draw_white_space": "all",
+    "ensure_newline_at_eof_on_save": true,
+    "fade_fold_buttons": false,
+    "find_selected_text": true,
+    "font_face": "Source Code Pro",
+    "font_options":
+    [
+    "subpixel_antialias"
+    ],
+    "font_size": 9,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+    "CSS",
+    "PHP",
+    "Vintage"
+    ],
+    "indent_guide_options":
+    [
+    "draw_normal",
+    "draw_active"
+    ],
+    "indent_subsequent_lines": true,
+    "index_files": true,
+    "match_brackets": false,
+    "match_brackets_angle": false,
+    "match_brackets_braces": false,
+    "match_brackets_content": false,
+    "match_brackets_square": false,
+    "match_selection": true,
+    "match_tags": false,
+    "overlay_scroll_bars": "enabled",
+    "scroll_past_end": true,
+    "show_definitions": true,
+    "show_encoding": true,
+    "show_line_endings": true,
+    "smart_indent": true,
+    "spacegray_fileicons": true,
+    "spacegray_sidebar_font_normal": true,
+    "spacegray_sidebar_tree_normal": true,
+    "spacegray_tabs_auto_width": true,
+    "spacegray_tabs_font_normal": true,
+    "spacegray_tabs_normal": true,
+    "tab_completion": true,
+    "theme": "Default.sublime-theme",
+    "trim_automatic_white_space": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": "true"
 }
 ```
